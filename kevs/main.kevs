@@ -1,0 +1,14 @@
+add node0: JavascriptNode
+add sync: WSGroup
+add node0.subClient: MQTTSubClient
+add node0.printer: ConsolePrinter
+add chan: LocalChannel
+
+attach node0 sync
+
+bind node0.subClient.onMsg chan
+bind node0.printer.input chan
+
+set node0.subClient.host = 'mqtt.kevoree.org'
+set node0.subClient.port = '81'
+set node0.subClient.topic = 'mytopic'
