@@ -1,6 +1,6 @@
 {
-    "class": "org.kevoree.ContainerRoot@0.0060550372581928971432118337287",
-    "generated_KMF_ID": "0.0060550372581928971432118337287",
+    "class": "root:org.kevoree.ContainerRoot@0.247802317375317221446730509057",
+    "generated_KMF_ID": "0.247802317375317221446730509057",
     "nodes": [],
     "repositories": [],
     "hubs": [],
@@ -26,13 +26,13 @@
                                     "name": "MQTTSubClient",
                                     "version": "2.0.0",
                                     "deployUnits": [
-                                        "packages[org]/packages[kevoree]/packages[library]/deployUnits[hashcode=,name=kevoree-comp-mqttsubclient,version=2.0.0]"
+                                        "/packages[org]/packages[kevoree]/packages[library]/deployUnits[hashcode=,name=kevoree-comp-mqttsubclient,version=2.0.0]"
                                     ],
                                     "superTypes": [],
                                     "dictionaryType": [
                                         {
-                                            "class": "org.kevoree.DictionaryType@0.059467488201335071432118337392",
-                                            "generated_KMF_ID": "0.059467488201335071432118337392",
+                                            "class": "org.kevoree.DictionaryType@0.89268983644433321446730509124",
+                                            "generated_KMF_ID": "0.89268983644433321446730509124",
                                             "attributes": [
                                                 {
                                                     "class": "org.kevoree.DictionaryAttribute@topic",
