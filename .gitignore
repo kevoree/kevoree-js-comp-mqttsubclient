@@ -31,3 +31,5 @@ node_modules
 
 kevlib.json
 browser/kevoree-comp-mqttsubclient*.js
+
+yarn.lock
