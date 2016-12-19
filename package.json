@@ -30,6 +30,7 @@
     "load-grunt-tasks": "^3.5.2"
   },
   "eslintConfig": {
+		"root": true,
     "env": {
       "node": true
     },
